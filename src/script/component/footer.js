@@ -1,7 +1,7 @@
 class FooterBar extends HTMLElement {
   constructor() {
     super();
-    this.shadowDOM = this.attachShadow({ mode: 'open' });
+    this.shadowDOM = this.attachShadow({ mode: "open" });
   }
 
   connectedCallback() {
@@ -23,11 +23,11 @@ class FooterBar extends HTMLElement {
     </style>
     <footer class=" text-center text-lg-start">
         <div class="text-center p-3 text">
-        Wilantara Jaya © 2021 
+        Wilantara Jaya © 2022 
         </div>
     </footer>
     `;
   }
 }
 
-customElements.define('footer-cos', FooterBar);
+customElements.define("footer-cos", FooterBar);
